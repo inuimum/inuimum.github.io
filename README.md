@@ -1,4 +1,4 @@
-# mum.github.io
+# inuimum.github.io
 
 GitHub Pages で公開しているゲーム置き場です。
 
