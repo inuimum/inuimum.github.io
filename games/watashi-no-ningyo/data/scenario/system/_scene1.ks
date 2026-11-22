@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/BG_apart.png"  ]
+[preload  storage="./data/fgimage/default/pic_sukasi.png"  ]
+[preload  storage="./data/bgimage/IMG_2746.PNG"  ]
+[preload  storage="./data/bgimage/IMG_2745.PNG"  ]
+[preload  storage="./data/bgimage/BG_title.gif"  ]
+[preload  storage="./data/bgimage/IMG_2749.PNG"  ]
+[preload  storage="./data/bgimage/IMG_2750.PNG"  ]
+[return]

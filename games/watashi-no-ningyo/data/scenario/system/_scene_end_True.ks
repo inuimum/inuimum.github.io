@@ -1,0 +1,5 @@
+[preload  storage="./data/fgimage/default/pic_sukasi.png"  ]
+[preload  storage="./data/bgimage/BG_sugata1.png"  ]
+[preload  storage="./data/bgimage/BG_black.png"  ]
+[preload  storage="./data/bgimage/IMG_2751.GIF"  ]
+[return]
