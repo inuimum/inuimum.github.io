@@ -24,13 +24,20 @@ $('.message_inner').css('text-align', 'center');
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="BG_black.png"  ]
+[playse  volume="30"  time="1000"  buf="0"  storage="mizu.mp3"  ]
 [tb_start_text mode=1 ]
 #
-ぐい、と引っ張られた。手の力は強く、腕が瞬間的に痺れた[p]
+ぐい、と引っ張られた。[p]
 
 [_tb_end_text]
 
-[playbgm  volume="30"  time="1000"  loop="true"  storage="shoujorei.mp3"  ]
+[stopse  time="1000"  buf="0"  fadeout="true"  ]
+[playse  volume="15"  time="1000"  buf="0"  storage="mizunaka.mp3"  fadein="true"  loop="true"  ]
+[tb_start_text mode=1 ]
+手の力は強く、腕が瞬間的に痺れた[p]
+[_tb_end_text]
+
+[playbgm  volume="70"  time="1000"  loop="true"  storage="shoujorei.mp3"  ]
 [tb_start_text mode=1 ]
 #
 水に飛び込み、バケツは手を離れる。[p]
@@ -40,6 +47,12 @@ $('.message_inner').css('text-align', 'center');
 [tb_start_text mode=1 ]
 #にんぎょ
 良かった、良い餌よ[p]
+
+[_tb_end_text]
+
+[stopse  time="1000"  buf="0"  ]
+[playse  volume="60"  time="1000"  buf="0"  storage="mizunaka.mp3"  loop="true"  ]
+[tb_start_text mode=1 ]
 #
 餌...？[p]
 [_tb_end_text]
@@ -71,5 +84,6 @@ END - 「わたしのにんぎょさん。」[p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  ]
+[stopse  time="1000"  buf="0"  ]
 [jump  storage="title_screen.ks"  target="*start_end_other"  ]
 [s  ]

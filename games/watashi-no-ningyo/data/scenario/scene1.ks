@@ -2,6 +2,8 @@
 
 [cm  ]
 [mask  time="500"  effect="fadeIn"  color="0x000000"  ]
+[playse  volume="10"  time="1000"  buf="0"  storage="ame.mp3"  ]
+[playbgm  volume="30"  time="1000"  loop="true"  storage="genjitsunosukima.mp3"  ]
 [tb_start_tyrano_code]
 [iscript]
 $('.message_inner').css('text-align', 'center');
@@ -10,7 +12,7 @@ $('.message_inner').css('text-align', 'center');
 [_tb_end_tyrano_code]
 
 [bg  storage="BG_apart.png"  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/pic_sukasi.png"  width="1920"  height="1080"  name="img_4"  ]
+[tb_image_show  time="1000"  storage="default/pic_sukasi.png"  width="1920"  height="1080"  name="img_6"  ]
 [mask_off  time="100"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -28,9 +30,12 @@ $('.message_inner').css('text-align', 'center');
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
+[stopse  time="1000"  buf="0"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="2000"  method="crossfade"  storage="IMG_2746.PNG"  ]
+[playse  volume="5"  time="1000"  buf="0"  storage="mizu.mp3"  ]
 [bg  time="3000"  method="fadeIn"  storage="IMG_2745.PNG"  ]
+[stopse  time="1000"  buf="0"  ]
 [wait  time="2000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -52,29 +57,44 @@ $('.message_inner').css('text-align', 'center');
 と声をかけても、君は分からないよね[p]
 よくこんなカルキの水の中に入ってるのに、[p]
 生きているもんだ[p]
-スイスイと泳ぐ姿は元気を取り戻し、アパートの前で落ちて[p]
-衰弱していたのが嘘みたいだ。[p]
+スイスイと泳ぐ姿は元気を取り戻し、[p]
+アパートの前で落ちて衰弱していたのが嘘みたいだ。[p]
 君を海に返してあげたいけど、[p]
 ここしばらく雨が続き海が荒れている。[p]
 
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
 その時だった[p]
 [_tb_end_text]
 
 [mask  time="500"  effect="fadeIn"  color="0xffffff"  ]
 [bg  time="1500"  method="crossfade"  storage="IMG_2749.PNG"  ]
+[playse  volume="10"  time="1000"  buf="0"  storage="mizunaka.mp3"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #にんぎょ
-拾ってくれてありがとう、海へ帰してちょうだい[p]
+拾ってくれてありがとう、[p]
+
+
+[_tb_end_text]
+
+[stopse  time="1000"  buf="0"  ]
+[tb_start_text mode=1 ]
 #
+海へ帰してちょうだい[p]
 浴槽の中に、小さな女の子が現れた。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
 ・・・君は、人魚？[p]
 #にんぎょ
 さあ、わからないわ　けどこの姿になったから、そうなのかも[p]
 #
 ねえ、どうして家の前にいたの？[p]
+
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="IMG_2750.PNG"  ]
@@ -105,6 +125,7 @@ $('.message_inner').css('text-align', 'center');
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [jump  storage="scene2.ks"  target=""  ]
 [s  ]

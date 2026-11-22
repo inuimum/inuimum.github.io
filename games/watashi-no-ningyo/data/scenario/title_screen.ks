@@ -11,8 +11,9 @@
 [tb_clear_images]
 
 [tb_keyconfig  flag="0"  ]
-[bg  time="500"  method="crossfade"  storage="home_top1.png"  ]
+[bgmovie  time="1000"  volume="100"  loop="false"  storage="top_tap_info.mp4"  ]
 [l  ]
+[stop_bgmovie  time="1000"  ]
 [bg  time="2000"  method="fadeIn"  storage="home_top2.png"  ]
 [cm  ]
 [jump  storage="scene1.ks"  target=""  ]

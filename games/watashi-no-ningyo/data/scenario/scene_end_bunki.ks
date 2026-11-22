@@ -26,6 +26,7 @@ $('.message_inner').css('text-align', 'center');
 [tb_hide_message_window  ]
 [bg  time="500"  method="crossfade"  storage="BG_sea.png"  ]
 [wait  time="2000"  ]
+[playse  volume="10"  time="1000"  buf="0"  storage="aruku.mp3"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
@@ -34,6 +35,9 @@ $('.message_inner').css('text-align', 'center');
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopse  time="1000"  buf="0"  fadeout="true"  ]
+[stopbgm  time="1000"  ]
+[playse  volume="15"  time="1000"  buf="0"  storage="mizunaka.mp3"  ]
 [wait  time="3000"  ]
 [tb_start_tyrano_code]
 [layopt layer="1" visible="true"]
@@ -47,10 +51,12 @@ $('.message_inner').css('text-align', 'center');
 [_tb_end_tyrano_code]
 
 [mask  time="500"  effect="fadeIn"  color="0xffffff"  ]
+[stopse  time="1000"  buf="0"  fadeout="true"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="500"  method="crossfade"  storage="BG_sugata1.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="naishonoohanashi.mp3"  ]
 [tb_start_text mode=1 ]
 #にんぎょ
 ああ、水が美味しい[p]

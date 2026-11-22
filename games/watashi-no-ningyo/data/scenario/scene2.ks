@@ -7,7 +7,8 @@ $('.message_inner').css('text-align', 'center');
 
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="1000"  storage="default/pic_sukasi.png"  width="1920"  height="1080"  name="img_1"  ]
+[playse  volume="10"  time="1000"  buf="0"  storage="aruku.mp3"  ]
+[tb_image_show  time="1000"  storage="default/pic_sukasi.png"  width="1920"  height="1080"  name="img_2"  ]
 [bg  time="1000"  method="crossfade"  storage="BG_sea.png"  ]
 [mask_off  time="1500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
@@ -23,8 +24,12 @@ $('.message_inner').css('text-align', 'center');
 
 [tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
+[stopse  time="1000"  buf="0"  ]
 [bg  time="2000"  method="crossfade"  storage="BG_door.png"  ]
-[bg  time="3000"  method="crossfade"  storage="IMG_2750.PNG"  ]
+[playse  volume="10"  time="1000"  buf="0"  storage="door_open.mp3"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="genjitsunosukima.mp3"  ]
+[stopse  time="1000"  buf="0"  ]
+[bg  time="2000"  method="crossfade"  storage="IMG_2750.PNG"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
@@ -68,8 +73,8 @@ $('.message_inner').css('text-align', 'center');
 [_tb_end_text]
 
 [mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="1000"  method="crossfade"  storage="IMG_2750.PNG"  ]
+[mask_off  time="3000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #
 ありがとう、沢山おしゃべりできたね。[p]
@@ -91,6 +96,7 @@ $('.message_inner').css('text-align', 'center');
 
 [bg  time="1500"  method="crossfade"  storage="IMG_2750.PNG"  ]
 [tb_hide_message_window  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="3000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  ]
 [jump  storage="scene3.ks"  target=""  ]
 [s  ]

@@ -44,9 +44,15 @@ $('.message_inner').css('text-align', 'center');
 [_tb_end_text]
 
 [bg  time="1500"  method="crossfade"  storage="BG_sea.png"  ]
+[playse  volume="10"  time="1000"  buf="0"  storage="mizunaka.mp3"  ]
 [tb_start_text mode=1 ]
 #
-ぽちゃん、彼女が不貞腐れつつ海の底へ戻ってしまった。[p]
+彼女が不貞腐れつつ海の底へ戻ってしまった。[p]
+
+[_tb_end_text]
+
+[stopse  time="1000"  buf="0"  fadeout="true"  ]
+[tb_start_text mode=1 ]
 #
 ・・・ありがとう。[p]
 #
@@ -66,24 +72,27 @@ $('.message_inner').css('text-align', 'center');
 [bg  time="1200"  method="crossfade"  storage="BG_sea.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
+[playse  volume="15"  time="1000"  buf="0"  storage="aruku.mp3"  loop="true"  ]
 [playbgm  volume="50"  time="1000"  loop="true"  storage="sea.mp3"  ]
 [tb_start_text mode=1 ]
 #
 数日後、また海へ探索しにきていた。[p]
 正確には、たそがれに来ていた。[p]
 #
-...遠くに、トビウオの群れが見える。[p]
+・・・・・・遠くに、トビウオの群れが見える。[p]
 黒く、駆け抜ける姿は美しい。[p]
 #
 決まった方向に、沢山のトビウオが跳ねていた。[p]
+力強く、水面を跳ねる様子は遠くからも視認できる。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
-...無事に、あの子は成長できたかな[p]
+・・・無事に、あの子は成長できたかな[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="BG_white.png"  ]
+[stopse  time="1000"  buf="0"  ]
 [tb_start_text mode=1 ]
 END - 「成長点」[p]
 [_tb_end_text]
