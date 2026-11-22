@@ -8,7 +8,7 @@ GitHub Pages で公開しているゲーム置き場です。
 index.html                 … トップページ（ゲーム一覧）
 games/
   index.html               … トップへリダイレクト
-  watashi-no-ningyo/       … 「わたしの人形」（TyranoScript）
+  watashi-no-ningyo/       … 「わたしの人魚」（TyranoScript）
 .nojekyll                  … Jekyll 処理を無効化（_ で始まるファイルも配信するため）
 ```
 
