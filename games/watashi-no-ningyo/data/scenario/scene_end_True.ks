@@ -64,6 +64,7 @@ $('.message_inner').css('text-align', 'center');
 ありがとう、一緒に来てくれて。[p]
 #にんぎょ
 皆、喜んでいるわよ[p]
+#あぁ・・・
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]

@@ -2,7 +2,10 @@
 
 [mask time=10]
 [mask_off time=10]
-[tb_hide_message_window  ]
+[cm  ]
+[mask  time="500"  effect="fadeIn"  color="0x000000"  ]
+[playse  volume="10"  time="1000"  buf="0"  storage="ame.mp3"  ]
+[playbgm  volume="30"  time="1000"  loop="true"  storage="genjitsunosukima.mp3"  ]
 [tb_start_tyrano_code]
 [iscript]
 $('.message_inner').css('text-align', 'center');
@@ -10,95 +13,121 @@ $('.message_inner').css('text-align', 'center');
 
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="1000"  storage="default/pic_sukasi.png"  width="1920"  height="1080"  ]
-[bg  time="500"  method="crossfade"  storage="BG_sugata2.png"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[bg  storage="BG_apart.png"  time="1000"  ]
+[tb_image_show  time="1000"  storage="default/pic_sukasi.png"  width="1920"  height="1080"  name="img_6"  ]
+[mask_off  time="100"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-行けないよ[p]
+雨の降る日だった[p]
+傘もささず、ずぶ濡れで帰ってきた。[p]
+服の中まで湿り、髪の毛は顔にへばりつく。[p]
+どうなっても良い、と内心放心していた。[p]
+
 #
-正確には、行かない[p]
+そんな時、[p]
+家の前に落ちている、魚がいた。[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
-[bg  time="500"  method="crossfade"  storage="BG_sugata1.png"  ]
-[playbgm  volume="50"  time="1000"  loop="true"  storage="naishonoohanashi.mp3"  ]
+[stopse  time="1000"  buf="0"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[bg  time="2000"  method="crossfade"  storage="IMG_2746.PNG"  ]
+[playse  volume="5"  time="1000"  buf="0"  storage="mizu.mp3"  ]
+[bg  time="3000"  method="fadeIn"  storage="IMG_2745.PNG"  ]
+[stopse  time="1000"  buf="0"  ]
+[wait  time="2000"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#にんぎょ
-どうして？あなたは寂しいはずよ[p]
-#
-寂しいさ、とても。[p]
-#
-けどね、君が浴槽で窮屈だったように、[p]
-私も海の中じゃ楽しく過ごせないよ[p]
-#
-こうやって、たまに会えたら嬉しい。[p]
-#
-だから、行けない[p]
-#にんぎょ
-・・・そう、悲しいわ[p]
-#
-そう思ってくれたなら、とても嬉しい[p]
-#
-人魚に、そう思ってもらったんだ。[p]
-名誉だよ[p]
+それを拾っては[p]
+大きな大きな、水の中へと入れ込んだ。[p]
 [_tb_end_text]
 
-[bg  time="1500"  method="crossfade"  storage="BG_sea.png"  ]
+[tb_hide_message_window  ]
+[wait  time="3000"  ]
+[bg  time="1000"  method="crossfade"  storage="BG_title.gif"  ]
+[wait  time="2000"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_show_message_window  ]
+[bg  time="3000"  method="fadeIn"  storage="IMG_2745.PNG"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
+#
+やあ、元気？[p]
+と声をかけても、君は分からないよね[p]
+よくこんなカルキの水の中に入ってるのに、[p]
+生きているもんだ[p]
+スイスイと泳ぐ姿は元気を取り戻し、[p]
+アパートの前で落ちて衰弱していたのが嘘みたいだ。[p]
+君を海に返してあげたいけど、[p]
+ここしばらく雨が続き海が荒れている。[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+その時だった[p]
+[_tb_end_text]
+
+[mask  time="500"  effect="fadeIn"  color="0xffffff"  ]
+[bg  time="1500"  method="crossfade"  storage="IMG_2749.PNG"  ]
 [playse  volume="10"  time="1000"  buf="0"  storage="mizunaka.mp3"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
-#
-彼女が不貞腐れつつ海の底へ戻ってしまった。[p]
+#にんぎょ
+拾ってくれてありがとう、[p]
+
 
 [_tb_end_text]
 
-[stopse  time="1000"  buf="0"  fadeout="true"  ]
+[stopse  time="1000"  buf="0"  ]
 [tb_start_text mode=1 ]
 #
-・・・ありがとう。[p]
+海へ帰してちょうだい[p]
+浴槽の中に、小さな女の子が現れた。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
-さあて、研究資料練り直しだなあ[p]
-帰ろう、家に。[p]
+・・・君は、人魚？[p]
+#にんぎょ
+さあ、わからないわ　けどこの姿になったから、そうなのかも[p]
+#
+ねえ、どうして家の前にいたの？[p]
+
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="IMG_2750.PNG"  ]
+[bg  time="2000"  method="crossfade"  storage="IMG_2749.PNG"  ]
+[tb_start_text mode=1 ]
+#にんぎょ
+わからないわ 雨に流されてきたのかも[p]
+#
+この状態で海に帰れるの？[p]
+#にんぎょ
+わからないわ、けどこの水は少し臭い[p]
+早く海に帰らないと、嫌な気持ちになっちゃう[p]
+#にんぎょ
+ねえねえ、私を海に帰してくれる？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+・・・[p]
+#
+・・・もう少し、一緒にいてくれない？[p]
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="IMG_2749.PNG"  ]
+[tb_start_text mode=1 ]
+#にんぎょ
+・・・・・・いいけど、ちゃんと海に帰してね。[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
 [stopbgm  time="1000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="500"  method="crossfade"  storage="BG_door.png"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
-[bg  time="1500"  method="crossfade"  storage="BG_apart.png"  ]
-[bg  time="1500"  method="crossfade"  storage="BG_school.png"  ]
-[bg  time="500"  method="crossfade"  storage="BG_black.png"  ]
-[mask  time="1000"  effect="fadeIn"  color="0xffffff"  ]
-[bg  time="1200"  method="crossfade"  storage="BG_sea.png"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
-[tb_show_message_window  ]
-[playse  volume="15"  time="1000"  buf="0"  storage="aruku.mp3"  loop="true"  ]
-[playbgm  volume="50"  time="1000"  loop="true"  storage="sea.mp3"  ]
-[tb_start_text mode=1 ]
-#
-数日後、また海へ探索しにきていた。[p]
-正確には、たそがれに来ていた。[p]
-#
-・・・・・・遠くに、トビウオの群れが見える。[p]
-黒く、駆け抜ける姿は美しい。[p]
-#
-決まった方向に、沢山のトビウオが跳ねていた。[p]
-力強く、水面を跳ねる様子は遠くからも視認できる。[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#
-・・・無事に、あの子は成長できたかな[p]
-[_tb_end_text]
-
-[bg  time="1000"  method="crossfade"  storage="BG_white.png"  ]
-[stopse  time="1000"  buf="0"  ]
-[tb_start_text mode=1 ]
-END - 「成長点」[p]
-[_tb_end_text]
-
-[stopbgm  time="1000"  ]
-[jump  storage="title_screen.ks"  target="*start_end_other"  ]
+[jump  storage="scene2.ks"  target=""  ]
 [s  ]

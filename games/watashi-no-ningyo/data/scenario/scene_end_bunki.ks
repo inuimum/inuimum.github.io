@@ -25,7 +25,7 @@ $('.message_inner').css('text-align', 'center');
 
 [tb_hide_message_window  ]
 [bg  time="500"  method="crossfade"  storage="BG_sea.png"  ]
-[wait  time="2000"  ]
+[wait  time="1000"  ]
 [playse  volume="10"  time="1000"  buf="0"  storage="aruku.mp3"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -104,6 +104,7 @@ $('.message_inner').css('text-align', 'center');
 #にんぎょ
 きっと、海の方が幸せになれるわよ[p]
 私と一緒に、行きましょう[p]
+
 [_tb_end_text]
 
 [tb_hide_message_window  ]

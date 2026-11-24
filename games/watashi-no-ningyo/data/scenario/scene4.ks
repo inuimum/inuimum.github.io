@@ -54,7 +54,8 @@ $('.message_inner').css('text-align', 'center');
 [bg  time="500"  method="crossfade"  storage="IMG_2748.PNG"  ]
 [tb_start_text mode=1 ]
 #にんぎょ
-当たり前のことじゃない？生まれた場所に戻るのよ[p]
+当たり前のことじゃない？[p]
+生まれた場所に戻るのよ[p]
 #
 ここは落ち着かない？[p]
 #にんぎょ
@@ -90,7 +91,8 @@ $('.message_inner').css('text-align', 'center');
 #
 ねえ。君を絵描いてもいい？[p]
 せっかくだから、記録を残しておきたいんだ。[p]
-君はとても綺麗だ。だからこそ、せっかくさ。[p]
+君はとても綺麗だ。[p]
+だからこそ、せっかくさ。[p]
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="IMG_2748.PNG"  ]
@@ -124,7 +126,8 @@ $('.message_inner').css('text-align', 'center');
 ・・・海、比較的落ち着いてきたね[p]
 #にんぎょ
 あらそう、じゃあ、[p]
-明日には帰れるかしら[p]
+明日、[p]
+海に連れて行って。[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
